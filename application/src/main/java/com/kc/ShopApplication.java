@@ -1,12 +1,12 @@
-package com.kc.app;
+package com.kc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Shop {
+public class ShopApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Shop.class, args);
+        SpringApplication.run(ShopApplication.class, args);
     }
 }

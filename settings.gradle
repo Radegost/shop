@@ -1,2 +1,4 @@
 rootProject.name = 'shop'
 include 'application'
+include 'web'
+
