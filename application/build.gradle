@@ -1,0 +1,15 @@
+plugins {
+    id "org.springframework.boot" version "2.3.4.RELEASE"
+}
+
+//jar.archiveFileName = "app-two.jar"
+
+//tasks {
+//    bootJar {
+//        archiveFileName.set("app-two.jar")
+//    }
+//}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}
